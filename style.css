@@ -1,14 +1,98 @@
 *{
-    background-color: rgb(63, 62, 62);
+    background-color: rgba(33,32,36,255);
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: rgba(49,48,52,255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 button:hover{
-    color: green;
+    border: 0.5px solid rgba(255, 255, 255, 0.384)
 }
+
+footer{
+    align-items: center;
+    background-color: rgba(23,22,22,255);
+    border-top: 1px solid rgba(49,48,52,255);
+    display: flex;
+    height: 50px;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+}
+
+main{
+    margin-top: 2%;
+}
+
+.bloque1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.bloque3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20.55%;
+}
+
+
 .input{
-    width: 40%;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 50%;
+    border-radius: 25px;
+    border: 2px solid rgba(49,48,52,255);
+    margin-bottom: 20px;
 }
 
 .input:hover{
-    color: green
+    background-color: rgba(49,48,52,255);
+}
+
+.footer-link{
+    background-color: rgba(23,22,22,255);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    text-decoration-line: underline;
+}
+
+.link{
+    color: white;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration-line: underline;
+}
+
+.logo{
+    width: 20%;
+}
+
+#search{
+    margin-right: 5px;
 }
