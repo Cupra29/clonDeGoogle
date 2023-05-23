@@ -3,12 +3,15 @@
 }
 
 body{
-    margin: 0;
+    display: flex;
     font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    margin: 0;
 }
 
 button{
     background-color: rgba(49,48,52,255);
+    cursor: pointer;
     color: white;
     border: none;
     border-radius: 3px;
@@ -20,20 +23,23 @@ button:hover{
 }
 
 footer{
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: rgba(23,22,22,255);
     border-top: 1px solid rgba(49,48,52,255);
-    display: flex;
-    height: 50px;
 }
 
 header{
     display:flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 main{
-    margin-top: 2%;
+    margin-top: 18.5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bloque1{
@@ -47,7 +53,7 @@ main{
 .bloque3{
     display: flex;
     justify-content: center;
-    margin-bottom: 20.55%;
+    margin-bottom: 22.2%;
 }
 
 
@@ -69,7 +75,9 @@ main{
 .footer-link{
     background-color: rgba(23,22,22,255);
     color: white;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
     text-decoration: none;
 }
 
@@ -91,6 +99,20 @@ main{
 
 .logo{
     width: 20%;
+}
+
+.left-footer{
+    align-items: center;
+    background-color: rgba(23,22,22,255);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-footer{
+    align-items: center;
+    background-color: rgba(23,22,22,255);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #search{
