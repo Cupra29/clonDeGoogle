@@ -34,8 +34,10 @@ footer{
 
 header{
     display:flex;
+    align-items: baseline;
     flex-wrap: wrap;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 html, body {
@@ -115,12 +117,32 @@ main{
     justify-content: space-evenly;
 }
 
+.menu{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    object-fit: cover;
+    width: 30px;
+}
+
 .right-footer{
     align-items: center;
     background-color: rgba(23,22,22,255);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.user{
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    object-fit: cover;
+    width: 40px;
 }
 
 #search{
